@@ -36,8 +36,8 @@ class UserThread:
 
     def createThread(self):
         try:
-            domain = "@shutupfvckup.my.id"  # set domain here
-            sandi = "chsangkara"  # set password here
+            domain = "@netek.me"  # set domain here
+            sandi = "spongebob"  # set password here
 
             try:
                 amount = input(f' Amount : ')
@@ -57,7 +57,7 @@ class UserThread:
                     for thread in threads:
                         thread.join()
                      
-                    print("\n Support : 0895415306281 ( DANA )\n") # Credit jangan dihapus kontol
+                    print("\n Credit : t.me/agathasangkara\n") # Credit jangan dihapus kontol
                     
                 except KeyboardInterrupt:
                     pass
