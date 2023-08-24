@@ -44,7 +44,7 @@ class UserThread:
                 if int(amount) > 20:  # jangan diganti biar ga error spam
                     sys.exit(f'\n Sebaiknya jangan gegabah terlalu banyak')
                 else:
-                    print(f"\n Ready Create Spotify Account\n\n Kata sandi : {sandi}\n")
+                    print(f"\n Ready Create Spotify Account\n\n Password : {sandi}\n")
                 threads = []
                 count = 0
                 try:
@@ -57,7 +57,7 @@ class UserThread:
                     for thread in threads:
                         thread.join()
                      
-                    print("\n Credit : t.me/agathasangkara\n") # Credit jangan dihapus kontol
+                    print("\n\n Credit : t.me/agathasangkara\n") # Credit jangan dihapus kontol
                     
                 except KeyboardInterrupt:
                     pass
